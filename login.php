@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,22 @@
     <title>Bejelentkezés</title>
     <link rel="stylesheet" href="login-style.css">
 </head>
+
 <body>
     <div class="form">
         <form action="process.php" method="POST">
-            <p>
-                <label for="user">Név:</label>
-                <input type="text" id="user" name="user">
-            </p>
-            <p>
-                <label for="pass">Jelszó:</label>
-                <input type="password" id="pass" name="pass">
-            </p>
-            <p>
-                <input type="submit" id="btn" value="Bejelentkezés">
-            </p>
+
+            <label for="username">Név:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Jelszó:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Bejelentkezés</button>
+
         </form>
     </div>
-    
+
 </body>
+
 </html>
