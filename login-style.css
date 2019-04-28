@@ -1,0 +1,17 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+}
+
+.form{
+    border: solid gray 1px;
+    border-radius: 5px;
+    width: 20%;
+    margin: 100px auto;
+    background: white;
+}
